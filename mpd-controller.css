@@ -1,0 +1,152 @@
+.controller-frame {
+  margin: 5px 5px 5px 0;
+	border: gray thin ridge;
+	overflow: visible;
+}
+.controller-header {
+    height: 32px;
+    background-color: gray;
+    padding: 5px;
+    min-height: 32px;
+    max-height: 32px;
+}
+.controller-header > .remove-controller {
+    margin: 2px;
+}
+.controller-header > .remove-controller:hover {
+    cursor: pointer;
+    text-shadow: .5px .5px .5px black;
+}
+.controller-body {
+  width:					100%;
+  position:				relative;
+  padding-right:	5px;
+}
+.controller {
+	width: calc(100%-10px);
+  position: relative;
+  padding: 0 0 0 5px;
+  background-color: lightcyan;
+}
+.controller-stats {
+	display: inline-block;
+	font-size: 10px;
+	width: 25%;
+}
+.controller-body > .controller {
+    border: none;
+}
+.controller .controller {
+    margin: 0;
+    width: calc(100% - 20px);
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+    height: calc(100% - 7px);
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    z-index: 0;
+}
+.controller select {
+    font-size: 11px;
+    height: 17px;
+    padding: 0;
+    margin: 1px;
+    box-shadow: 2px 2px 1px #888888;
+}
+.controller input[type="text"] {
+	font-family:	"Times New Roman";
+  font-size:		11px;
+  padding:			0 3px;
+  margin:				1px 0 5px 0;
+  box-shadow:		2px 2px 1px #888888;
+	height: 			20px;
+}
+.controller input[type='checkbox'] {
+	margin: 0;
+}
+.controller .search {
+	width: calc(100% - 10px);
+}
+
+.controller .tagit input {
+	height: 16px;
+}
+.controller > ul {
+    padding: 5px 0;
+}
+.controller-tag-filter {
+	margin-bottom: 5px;
+	margin-right: 10px;
+	width: calc(100% - 5px);
+}
+.object-attributes {
+	font-size: 11px;
+	line-height: 16px;
+}
+.controller-controls {
+	width:			100%;
+	position:		relative;
+	padding:		5px 5px 5px 0;
+}
+.controller-controls select {
+	margin-top: 2px;
+	margin-left: 0;
+}
+.nja-link-object {
+	margin:			5px;
+	height:			20px;
+}
+.nja-tag-autocomplete {
+	margin: 5px;
+}
+
+/* ANGULAR MATERIAL OVERLAY */
+.controller .md-chips {
+	padding: 0;
+	line-height: 11px;
+}
+.controller md-chips-wrap {
+	margin-bottom: 3px;
+}
+.controller .md-chips .md-chip {
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0;
+	height: 16px;
+}
+.controller .md-chips .md-chip .md-chip-remove-container {
+	line-height: 16px;
+}
+.controller .md-chips .md-chip .md-chip-remove {
+	height: 16px;
+	width: 16px;
+	margin-right: 2px;
+}
+.controller .md-chips .md-chip .md-chip-remove md-icon {
+	height: 14px;
+	width: 14px;
+}
+.controller .md-chips .md-chip-input-container {
+	padding: 0 3px;
+	line-height: 16px;
+	margin: 1px;
+}
+.controller .md-chips .md-chip-input-container input {
+	line-height: 16px;
+	height: 16px;
+}
+.controller md-autocomplete input:not(.md-input) {
+	font-size: 11px;
+}
+.controller .md-chips .md-chip-input-container md-autocomplete, .md-chips .md-chip-input-container md-autocomplete-wrap {
+	height: 16px;
+}
+
+.md-autocomplete-suggestions li {
+	line-height: 1.5;
+	font-size: 11px;
+	color: rgb(79,79,79);
+	height: 16.5px;
+}
+/*************************************/
